@@ -12,5 +12,6 @@ Para cada archivo, se solicita lo siguiente:
 3) Imprimir en consola la suma total del active power por día, de todas las plantas.
 
 ## Mi solución
-He creado un script en python que procesa todos los archivos que esten en la carpeta 'excel', y hará todo los pasos establecidos anteriormente.
-Primero deberá instalar las dependencias encontradas en el archivo 'requirements.txt'
+HHe creado un script que te preguntará el nombre del archivo excel, y hará todo los pasos establecidos anteriormente.
+Primero deberá instalar las dependencias encontradas en el archivo 'requirements.txt' con el siguiente comando:
+`pip install -r requirements.txt`
