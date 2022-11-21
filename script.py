@@ -6,7 +6,18 @@ import seaborn as sns
 import os
 
 # get the user input of the file name
-file_name = input("Enter the file name: ")
+
+cd = os.getcwd()
+all_one = input("Do you want to process all files in directory or just one? input 'all' for all files and 'one' for one file: ")
+while all_one == "one" :
+        file_name = input("Enter the file name: ")
+        if not(os.path.isfile("{}/{}.xlsx".format(cd, file_name))):
+            print("--------------invaild input try again--------------")
+            continue
+        else:
+            break
+else:
+    file_name = ""
 
 # start a timer
 start_time = time.time()
