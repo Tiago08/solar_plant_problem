@@ -15,3 +15,9 @@ Para cada archivo, se solicita lo siguiente:
 HHe creado un script que te preguntará el nombre del archivo excel, y hará todo los pasos establecidos anteriormente.
 Primero deberá instalar las dependencias encontradas en el archivo 'requirements.txt' con el siguiente comando:
 `pip install -r requirements.txt`
+
+Luego correr el programa con:
+`python script.py`
+
+EL programa creara dos carpetas:
+en una se guardara el archivo .txt, y en otra se guardan los gráficos.
