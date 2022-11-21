@@ -12,12 +12,10 @@ Para cada archivo, se solicita lo siguiente:
 3) Imprimir en consola la suma total del active power por día, de todas las plantas.
 
 ## Mi solución
-HHe creado un script que te preguntará el nombre del archivo excel, y hará todo los pasos establecidos anteriormente.
+He creado un script que te preguntará si quieres procesar todos los archivos excel que esten en la misma carpeta que el script o procesar solo uno, y hará todo los pasos establecidos anteriormente.
 Primero deberá instalar las dependencias encontradas en el archivo 'requirements.txt' con el siguiente comando:
 `pip install -r requirements.txt`
 
 Luego correr el programa con:
 `python script.py`
-
-EL programa creara dos carpetas:
-en una se guardara el archivo .txt, y en otra se guardan los gráficos.
+El script creara un archivo .txt y una imagen con el gráfico por cada archivo excel procesado.
